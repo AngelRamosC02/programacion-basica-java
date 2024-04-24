@@ -1,20 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package tipodato;
-
-/**
- *
- * @author Alumno
- */
-public class TipoDato {
-
-    /**
-     * @param args the command line arguments
-     */
+ class TipoDato {
     public static void main(String[] args) {
-        // TODO code application logic here
+        String Nombre;
+        int Edad;
+        boolean Estado;
+        double Saldo;
+        Object TodoTipoDato;
+        //Asignado
+        Nombre = "Angel Ramos Cutipa";
+        Edad = 22;
+        Saldo = 1000.34;
+        TodoTipoDato =  "Cadena";
+        TodoTipoDato = 2;
+        TodoTipoDato = true;
+        TodoTipoDato = 23.28;
+        //Imprimiendo
+        System.out.println("Nombre: " + Nombre);
+        System.out.println("Edad: " + Edad);
+        System.out.println("Saldo: " + Saldo);
+        System.out.println("Dinamico: " + TodoTipoDato);
     }
     
 }
