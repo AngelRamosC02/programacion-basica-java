@@ -13,8 +13,7 @@ public class OperadoresAritmeticos {
         System.out.println("Incremento: "+variableUno);
         
         // Incremento
-        variableUno++;
-        System.out.println("Incremento: "+variableUno);
+        variableUno++;ntln("Incremento: "+variableUno);
         
          //Decremento
         variableDos = variableDos - 1;
